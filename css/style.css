@@ -1,0 +1,40 @@
+.container{
+	margin-top: 50px;
+}
+
+.judul{
+	margin-bottom: 20px;
+	text-align: center;
+	color: black;
+	text-shadow: 2px 2px 5 pxgray;
+	font-family: cursive;
+	text-transform: uppercase;
+	text-decoration: overline;
+}
+label{
+	color: skyblue;
+	font-family: cursive;
+	text-shadow: 2px 2px black;
+}
+
+.col{
+	width: 47%;
+}
+
+.img-fluid{
+	width: 100%;
+	border-radius: 15px;
+}
+
+.kampus{
+	font-family: cursive;
+	text-transform: uppercase;
+	text-decoration: overline underline;
+	text-align: center;
+}
+
+@media (max-width: 670px) {
+	.col{
+		width: 100%;
+	}
+}
